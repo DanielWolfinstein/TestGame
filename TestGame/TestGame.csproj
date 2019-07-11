@@ -43,11 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HeroFolder\Hero.cs" />
+    <Compile Include="HeroFolder\IWeapon.cs" />
+    <Compile Include="HeroFolder\Weapon\Sword.cs" />
+    <Compile Include="Monster\Zombe.cs" />
+    <Compile Include="Monster\IMonster.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
